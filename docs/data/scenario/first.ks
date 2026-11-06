@@ -1,46 +1,61 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="釣り"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+[bg storage=hare.png time=500]
+「釣り日和だなぁ」[l][r]
 
-メロスは激怒した。[l][r]
-
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
-
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+どこで釣りをしよう...[l][r]
+[link target=*tag_umi] →海 [endlink][r]
+[link target=*tag_kawa] →川 [endlink][r]
 [s]
 
-*tag_sleep
+*tag_umi
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=umi.png time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+ヒットしてる！！[l][r]
+これはでかいぞ、、、！[l][r]
+おりゃあ！！[l][r]
 
-【 BAD END 】[l][cm]
+[cm]
+
+[bg storage=kutu.png time=500]
+
+うわあ[l][cm]
+
+[bg storage=tikyuu.png time=500]
+
+[l]
+
 
 [jump target=*start]
 
-*tag_run
+*tag_kawa
 
-[bg storage=run.jpg time=500]
+[bg storage=kawa.png time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
 
-【 GOOD END 】[l][cm]
+ヒットしてる！！[l][r]
+これはでかいぞ、、、！[l][r]
+おりゃあ！！[l][r]
+
+[cm]
+
+[bg storage=sake.png time=500]
+
+やった！[l]
+
+[cm]
+
+[bg storage=sigen.png time=500]
+
+[l]
 
 [jump target=*start]
